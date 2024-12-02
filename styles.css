@@ -41,6 +41,11 @@ nav ul li a {
     color: #333;
     font-weight: 700;
 }
+ .active{
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+    
+}
 nav a:hover{
     color: white;
     transition: 0.2s;
@@ -69,7 +74,7 @@ nav a:hover{
 
 .hero-image img{
     /* background-image: cover; */
-  width: 1350px;
+  width: 1349px;
   height:420px;
   margin-top: 7rem;
  
@@ -94,6 +99,9 @@ nav a:hover{
     padding: 10px;
     background: #fcfeff;
     border-radius: 5px;
+}
+.categories img{
+    border-radius: 7px;
 }
 
 
@@ -141,6 +149,15 @@ footer button:hover{
     color:rgba(41, 116, 202, 0.836) ;
     font-size: larger;
     transition: 0.2s;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.socials img{
+    margin: 1rem;
+    width: 30px;
 }
 
 /* Home page ends */
@@ -190,6 +207,7 @@ footer button:hover{
     color: rgba(41, 116, 202, 0.836);
 }
 .best-sellers h2{
+    margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -224,15 +242,17 @@ footer button:hover{
 }
 .hours{
     line-height: 3rem;
-    background-color: rgba(47, 133, 203, 1);
+    background-color: rgb(45, 138, 214);
     padding: 3rem;
     border-radius: 7px;
+    color: white;
 }
 
 .hours button{
     padding: 1rem 2rem;
     margin-top: 1rem;
     background-color: white;
+    border-radius: 5px;
 }
 .about-grid{
     margin: 3rem 0rem;
@@ -276,16 +296,14 @@ footer button:hover{
     margin-top: 1rem;
 }
 
-/* Home and Contact page */
+/* Help and Contact page */
 .form{
-    padding: 9rem 5rem 7rem 5rem;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-evenly; */
+    padding: 12rem 5rem 7rem 5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
+
 .form fieldset{
     padding: 3rem;
     background-color: rgb(100, 226, 104);
@@ -294,7 +312,7 @@ footer button:hover{
 }
 .form h1{
     font-weight: 600;
-    text-align: center;
+    /* text-align: center; */
 }
 .form input{
     padding: 1.5rem;
@@ -312,3 +330,58 @@ footer button:hover{
 .foot p{
     text-align: left;
 }
+
+/* Terms and Conditions page */
+
+.terms{
+    padding: 7rem 5rem 4rem 5rem;
+    
+}
+.terms a{
+    text-decoration: none;
+    color: rgba(41, 116, 202, 0.836);
+}
+.terms-cond{
+    margin-top: 2rem;
+    background-color: rgb(157, 161, 161);
+    border-radius: 7px;
+    padding: 2rem;
+    
+}
+/* header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+} */
