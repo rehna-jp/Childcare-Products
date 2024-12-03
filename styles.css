@@ -51,14 +51,28 @@ nav a:hover{
     transition: 0.2s;
 }
 .searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search-icon{
+    border: 1px solid black;
+    height: 3rem;
+    background-color: rgba(39, 172, 43, 1);
+    border-radius: 0 5px  5px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar input{
     border: 1px solid black;
     width: 12rem;
     height: 3rem;
-    background-color: rgb(236, 232, 232);
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    border-radius: 8px;
+    background-color: whitesmoke;
+    border-radius: 5px 0 0 5px;
+    padding: 0 0 0 23px;
+    font-size: 1rem;
 }
 
 .hero {
@@ -126,11 +140,13 @@ footer p{
 footer .newsletter input {
     padding: 10px;
     margin-top: 10px;
+    border-radius: 5px;
     /* margin-right: 10px; */
 }
 footer button{
    padding: 5px;
    margin-top: 10px;
+   border-radius: 5px;
    
 
 }
@@ -254,6 +270,9 @@ footer button:hover{
     background-color: white;
     border-radius: 5px;
 }
+.hours button:hover{
+    cursor: pointer;
+}
 .about-grid{
     margin: 3rem 0rem;
     display: grid;
@@ -327,6 +346,9 @@ footer button:hover{
     background-color: rgb(39, 172, 44);
     border-radius: 5px;
 }
+.form button:hover{
+    cursor: pointer;
+}
 .foot p{
     text-align: left;
 }
@@ -348,6 +370,7 @@ footer button:hover{
     padding: 2rem;
     
 }
+
 /* header {
     background-color: #333;
     color: #fff;

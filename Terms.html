@@ -78,9 +78,9 @@
         <div class="foot">
            <div class="newsletter">
                <h3>Subscribe to Newsletter</h3>
-               <form>
-                   <input type="email" placeholder="Your email"><br>
-                   <button>Subscribe</button>
+               <form method="post" name="form">
+                   <input type="email" placeholder="Your email" name="email" id="email"><br>
+                   <button onclick="showMe()" value="submit">Subscribe</button>
                </form>
            </div>
            <div class="footer-links">
@@ -96,6 +96,9 @@
        </div>
            <p>&copy; 2024 Cc. All Rights Reserved</p>
        </footer>
+
+       <!-- javascript -->
+        <script src="./Script.js"></script>
 
 </body>
 </html>

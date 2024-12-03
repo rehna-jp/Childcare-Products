@@ -31,19 +31,22 @@
      <div class="form">
         
         <fieldset>
+          <form method="post" name="form">
             <h1>Get in Touch</h1>
             <input type="text" name="name" placeholder=" Your Name" id="name"><br>
             <input type="email" name="email" placeholder=" Your Email" id="email"><br>
             <input type="textarea" name="message" placeholder=" Write a message.." id="message"><br>
-            <button>Submit</button>
-
+            <button onclick="message()" value="submit">Submit</button>
+          </form>
         </fieldset>
 
         <fieldset>
+            <form method="post" name="form">
             <h1>Newsletter</h1>
             <input type="text" name="name" placeholder=" Your Name" id="name"><br>
             <input type="email" name="email" placeholder=" Your Email" id="email"><br>
-            <button>Subscribe</button>
+            <button onclick="showMe()" value="submit">Subscribe</button>
+        </form>
         </fieldset>
      </div>
 
@@ -76,6 +79,9 @@
        </div>
            <p>&copy; 2024 Cc. All Rights Reserved</p>
        </footer>
+
+       <!-- Javscript -->
+        <script src="./Script.js"></script>
 
 </body>
 </html>
