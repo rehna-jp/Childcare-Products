@@ -4,7 +4,7 @@ function showMe(){
     alert("Thank you for subscribing to our newsletter. We will be sending regular child care news and health care advice from carefully chosen Industry experts to your email");
 }
 
-function message(){
+function messageMe(){
      
     alert("Thank you for sending us a message. We'll get right back to you");
 }
